@@ -1,0 +1,119 @@
+﻿ body {
+  font-family: 'Lato', Verdana;
+  font-size: 100%;
+  background: #fff;
+}
+.wrap
+{
+  margin: 0 auto;
+  width: 70%;  /* отступы относительно окна браузера */
+}
+.header{
+  padding: 1.3em 0em; /* поля вокруг текста */
+}
+.logo{
+  float: left; /* обтекание логотипа */
+}
+.logo a {
+  display: block; /* переопределение в блочный  */
+}
+.nav {
+  float: right;   /* обтекание логотипа */
+  margin-top: 0.82em;
+}
+.nav > ul > li {
+  display:inline-block;  /* переопределение в строчно-блочный  */
+}
+.nav > ul > li.active a{
+  background: #d0a5a5;
+  color: #ffffff;
+}
+.nav > ul > li > a {
+  display: block;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  padding: 0.5em 1em;
+  color: #444;
+  -webkit-transition: 0.9s; /* плавный переход  */
+  -moz-transition: 0.9s;
+  -o-transition: 0.9s;
+  transition: 0.9s;
+}
+.nav > ul > li > a:hover {
+  color: #fff;
+  background: #d0a5a5;
+}
+
+
+
+ .mops_bg{
+  background:  url(мопс.jpg) no-repeat;
+  background-size: 100% 100%;
+margin-top: 60px;
+}
+.mops_text {
+  padding: 23% 0%;
+}
+.mops_text h2 {
+  color: #fff;
+  font-size: 2.9em;
+  font-weight: 600;
+  z-index: 10;
+  text-align: center;
+  position: relative; /* относительное позиционирование заголовка */
+  margin-top: -140px;
+  }
+.mops_text h2 span {
+  font-size: 1.1em;
+  font-weight: 290;
+}
+.mops_text p {
+  color: #fff;
+  font-size: 1.2em;
+  text-align: center;
+  margin: 1.4em auto;
+  width: 76%;
+  font-weight: 200;
+  line-height: 1.3em;
+}
+.mops_text .da-butt {
+  display: block;
+  background-color: #a97b7b;
+  color: #fff;
+  font-size: 1em;
+  text-transform: uppercase;
+  margin: 0 auto;
+  width: 10%;
+  text-align: center;
+  padding: 1em 2em;
+}
+.da-butt {
+  position: absolute; /* абсолютное позиционирование кнопки */
+  left: 750px; top: 370px;  /* отступы от краев браузера */
+}
+.mops_text .da-butt:hover
+{
+  background:#d0a5a5;
+}
+.butt-img{
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 2em auto 1em;
+  background: url(ыы2.jpg);
+  -webkit-transition: all 0.5s ease-in-out; /* плавный переход */
+  -moz-transition: all 0.5s ease-in-out; /* плавный переход */
+  -o-transition: all 0.5s ease-in-out; /* плавный переход */
+  -ms-transition: all 0.5s ease-in-out; /* плавный переход */
+  transition: all 0.5s ease-in-out; /* плавный переход */
+  position: relative; /* абсолютное позиционирование стрелки */
+  left: 210px; top: 130px;  /* отступы от родителя */
+}
+.butt-img:hover{
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: url(1.jpg);
+}
+
